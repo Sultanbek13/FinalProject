@@ -18,5 +18,8 @@ class StartFragment : Fragment(R.layout.fragment_start) {
                 .addToBackStack(LevelFragment::class.simpleName).commit()
         }
 
+        btnClose.setOnClickListener {
+            this.requireActivity().finish()
+        }
     }
 }

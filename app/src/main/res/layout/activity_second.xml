@@ -4,6 +4,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.question.SecondActivity">
+    tools:context=".ui.question.QuestionActivity">
+
+    <ImageView
+        android:id="@+id/question"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <ImageView
+        android:id="@+id/variantA"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="#F59C69"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question"
+        android:layout_margin="32dp"
+        />
+
+    <ImageView
+        android:id="@+id/variantB"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="#F55B59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/question"
+        android:layout_margin="32dp" />
+
+    <ImageView
+        android:id="@+id/variantC"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="#6C6EAB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/variantA"
+        android:layout_margin="32dp" />
+
+    <ImageView
+        android:id="@+id/variantD"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:background="#69DBC1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/variantB"
+        android:layout_margin="32dp" />
+
+    <ImageView
+        android:id="@+id/boy3"
+        android:layout_width="130dp"
+        android:layout_height="190dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/boy3"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toLeftOf="@id/boy3"
+        app:layout_constraintBottom_toTopOf="@id/boy3"
+        android:text="Ну-ка !"
+        android:textSize="16sp"
+        android:textColor="#43A047" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

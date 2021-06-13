@@ -6,8 +6,9 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.example.finalproject.data.dao.LevelDao
 import com.example.finalproject.data.model.Level
+import com.example.finalproject.data.model.Question
 
-@Database(entities = [Level::class], version = 1)
+@Database(entities = [Level::class, Question::class], version = 1)
 abstract class LevelDatabase : RoomDatabase() {
     companion object {
         private lateinit var INSTANCE: LevelDatabase
