@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
 data class Question(
 
     @PrimaryKey
-    val id : Int,
+    val Id : Int,
 
     @ColumnInfo(name = "Text")
     val Text : String?,
@@ -26,12 +26,12 @@ data class Question(
     val D : String?,
 
     @ColumnInfo(name = "Level_iq")
-    val Level_iq : Int,
+    val Level_iq : Int?,
 
     @ColumnInfo(name = "IqImage")
     val IqImage : String?,
 
     @ColumnInfo(name = "Score")
-    val Score : Int
+    val Score : Int?
 
 )
