@@ -20,6 +20,7 @@
         <activity android:name=".ui.question.QuestionActivity">
 
         </activity>
+        <activity android:name=".ui.finalPackage.FinalActivity"/>
     </application>
 
 </manifest>

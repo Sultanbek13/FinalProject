@@ -1,11 +1,13 @@
 package com.example.finalproject.ui.question
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import com.example.finalproject.MainActivity
 import com.example.finalproject.R
 import com.example.finalproject.data.LevelDatabase
-import com.example.finalproject.data.model.Question
+import com.example.finalproject.ui.finalPackage.FinalActivity
 import kotlinx.android.synthetic.main.activity_second.*
 import kotlin.random.Random
 
@@ -25,6 +27,9 @@ class QuestionActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_second)
 
+        setData(step)
+        close()
+
     }
 
     override fun onResume() {
@@ -39,6 +44,7 @@ class QuestionActivity : AppCompatActivity() {
             setData(step)
 
         } else {
+            val intent = Intent(this, FinalActivity::class.java)
             intent.putExtra("result", correctAnswer)
             startActivity(intent)
         }
@@ -85,6 +91,13 @@ class QuestionActivity : AppCompatActivity() {
                 variantC.setImageResource(variantResourceB)
                 variantD.setImageResource(variantResourseC)
             }
+        }
+    }
+    fun close() {
+        questionToLevelBack.setOnClickListener{
+            val intent = Intent(this,MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }

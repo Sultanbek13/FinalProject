@@ -10,9 +10,6 @@ import kotlinx.android.synthetic.main.fragment_select_level.*
 
 class LevelFragment : Fragment(R.layout.fragment_select_level) {
 
-    companion object {
-        const val QUESTION_COUNT = 10
-    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -21,30 +18,24 @@ class LevelFragment : Fragment(R.layout.fragment_select_level) {
             val intent = Intent(requireActivity(), QuestionActivity::class.java)
             intent.putExtra("cardViewId", 1)
             startActivity(intent)
-            requireActivity().finish()
         }
 
         btnTeenegers.setOnClickListener{
             val intent = Intent(requireActivity(), QuestionActivity::class.java)
             intent.putExtra("cardViewId", 2)
             startActivity(intent)
-            requireActivity().finish()
         }
 
         btnYouth.setOnClickListener{
             val intent = Intent(requireActivity(), QuestionActivity::class.java)
             intent.putExtra("cardViewId", 3)
             startActivity(intent)
-            requireActivity().finish()
         }
 
         btnOldMan.setOnClickListener {
             val intent = Intent(requireActivity(), QuestionActivity::class.java)
             intent.putExtra("cardViewId", 4)
             startActivity(intent)
-            requireActivity().finish()
         }
-
-
     }
 }
