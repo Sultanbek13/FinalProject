@@ -14,4 +14,9 @@ interface LevelDao {
     @Query("SELECT * FROM Questions WHERE id=:id")
     fun getQuestionsByLevel(id: Int) : Question
 
+    @Query("SELECT * FROM Questions WHERE Level_iq=:LevelId")
+    fun getQuestionByLevelIq(LevelId: Int) : Question
+
+
+
 }

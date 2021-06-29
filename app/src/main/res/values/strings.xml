@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:https="http://schemas.android.com/apk/res-auto">
     <string name="app_name">FinalProject</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -6,7 +6,7 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
-
+    <string name="telegramm">Menin IQ\'im %1$f eken. Tomendegi oyindi juklep al, ham sen de oz IQ indi tekserip kor.</string>
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>

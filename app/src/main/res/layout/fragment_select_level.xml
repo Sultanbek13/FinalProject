@@ -17,16 +17,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:layout_width="130dp"
-        android:layout_height="185dp"
-        android:background="@drawable/boy2"
+        android:layout_width="120dp"
+        android:layout_height="165dp"
+        android:background="@drawable/man2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
@@ -75,7 +75,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Iq проверка для детей 8-10"
+                    android:text="ɪQ ᴄʜᴇᴄᴋ ꜰᴏʀ ᴋɪᴅꜱ 8-10"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp"
                     android:layout_marginEnd="16dp"
@@ -124,7 +124,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Iq проверка для постарелых 50+"
+                        android:text="ɪQ ᴄʜᴇᴄᴋ ꜰᴏʀ ᴏʟᴅ ᴍᴀɴ 50+"
                         android:textSize="16sp"
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="16dp"
@@ -175,7 +175,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Iq проверка для молодежь 18+"
+                        android:text="ɪQ ᴄʜᴇᴄᴋ ꜰᴏʀ ʏᴏᴜᴛʜ 18+"
                         android:textSize="16sp"
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="16dp"
@@ -225,7 +225,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Iq проверка для подростков 10-17"
+                        android:text="ɪQ ᴄʜᴇᴄᴋ ᴛᴇᴇɴᴇɢᴇʀꜱ 10-17"
                         android:textSize="16sp"
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="16dp"

@@ -19,9 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="IQ – это общепринятый стандарт, по которому измеряется уровень интеллекта. Если вы хотите узнать, насколько вы умны, а также пройти тест на IQ, то устраивайтесь поудобнее и вперед!
-Как только вы дадите ответы на 15 вопросов, наша система обработает их и с точностью до 1 балла выдаст результат.
-Интересно, что только 3 % людей имеют уровень Ай Кью выше 130 баллов. Среди них, например, Билл Гейтс и Арнольд Шварценеггер. Быть может, вы в их числе? Скорее проверьте, ведь тест не отнимет у вас слишком много времени!"
+            android:text="ɪQ ɪꜱ ᴛʜᴇ ɢᴇɴᴇʀᴀʟʟʏ ᴀᴄᴄᴇᴘᴛᴇᴅ ꜱᴛᴀɴᴅᴀʀᴅ ʙʏ ᴡʜɪᴄʜ ɪɴᴛᴇʟʟɪɢᴇɴᴄᴇ ɪꜱ ᴍᴇᴀꜱᴜʀᴇᴅ. ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ꜱᴍᴀʀᴛ ʏᴏᴜ ᴀʀᴇ, ᴀɴᴅ ᴀʟꜱᴏ ᴛᴀᴋᴇ ᴀɴ ɪQ ᴛᴇꜱᴛ, ᴛʜᴇɴ ꜱɪᴛ ʙᴀᴄᴋ ᴀɴᴅ ɢᴏ! ᴀꜱ ꜱᴏᴏɴ ᴀꜱ ʏᴏᴜ ɢɪᴠᴇ ᴀɴꜱᴡᴇʀꜱ ᴛᴏ 15 Qᴜᴇꜱᴛɪᴏɴꜱ, ᴏᴜʀ ꜱʏꜱᴛᴇᴍ ᴡɪʟʟ ᴘʀᴏᴄᴇꜱꜱ ᴛʜᴇᴍ ᴀɴᴅ ɢɪᴠᴇ ᴛʜᴇ ʀᴇꜱᴜʟᴛ ᴡɪᴛʜ ᴀɴ ᴀᴄᴄᴜʀᴀᴄʏ ᴏꜰ 1 ᴘᴏɪɴᴛ. ɪɴᴛᴇʀᴇꜱᴛɪɴɢʟʏ, ᴏɴʟʏ 3% ᴏꜰ ᴘᴇᴏᴘʟᴇ ʜᴀᴠᴇ ᴀɴ ɪQ ʟᴇᴠᴇʟ ᴀʙᴏᴠᴇ 130. ᴀᴍᴏɴɢ ᴛʜᴇᴍ, ꜰᴏʀ ᴇxᴀᴍᴘʟᴇ, ʙɪʟʟ ɢᴀᴛᴇꜱ ᴀɴᴅ ᴀʀɴᴏʟᴅ ꜱᴄʜᴡᴀʀᴢᴇɴᴇɢɢᴇʀ. ᴘᴇʀʜᴀᴘꜱ ʏᴏᴜ ᴀʀᴇ ᴏɴᴇ ᴏꜰ ᴛʜᴇᴍ? ᴄʜᴇᴄᴋ ɪᴛ ᴏᴜᴛ Qᴜɪᴄᴋʟʏ, ʙᴇᴄᴀᴜꜱᴇ ᴛʜᴇ ᴛᴇꜱᴛ ᴡᴏɴ'ᴛ ᴛᴀᴋᴇ ᴛᴏᴏ ᴍᴜᴄʜ ᴏꜰ ʏᴏᴜʀ ᴛɪᴍᴇ!"
             android:textSize="16sp" />
 
     </LinearLayout>
@@ -30,7 +28,7 @@
         android:id="@+id/btnStartFirstActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Играть"
+        android:text="ɢᴀᴍᴇ"
         android:padding="8dp"
         android:backgroundTint="#7CD875"
         android:layout_margin="16dp"
@@ -44,7 +42,7 @@
         android:id="@+id/btnClose"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Закрыть"
+        android:text="ᴄʟᴏꜱᴇ"
         android:padding="8dp"
         android:backgroundTint="#7AFF0000"
         android:layout_margin="16dp"
@@ -61,12 +59,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.9" />
 
     <ImageView
-        android:layout_width="130dp"
-        android:layout_height="190dp"
-        android:background="@drawable/boy"
+        android:layout_width="120dp"
+        android:layout_height="165dp"
+        android:background="@drawable/man1"
         app:layout_constraintTop_toBottomOf="@id/linearLayoutFirstActivity"
         app:layout_constraintEnd_toEndOf="parent"
         />
